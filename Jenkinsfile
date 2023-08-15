@@ -6,6 +6,7 @@ pipeline {
         }
     }
     environment {
+        PUBLIC_URL       = 'https://junisuswanto.github.io/a428-cicd-labs'
         GITHUB_TOKEN     = credentials('jenkins-github-token')
         GITHUB_REPOSITORY = 'junisuswanto/a428-cicd-labs'
     }
